@@ -1,0 +1,4 @@
+libjxl.0.8.dylib [arm64]:
+    -platform:
+        platform     minOS      sdk
+           macOS     11.0      11.3   

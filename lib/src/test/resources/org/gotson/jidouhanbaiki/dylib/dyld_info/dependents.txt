@@ -1,0 +1,10 @@
+libjxl.0.8.dylib [arm64]:
+    -dependents:
+        attributes     load path
+                       @@HOMEBREW_PREFIX@@/opt/highway/lib/libhwy.1.dylib
+                       @@HOMEBREW_PREFIX@@/opt/brotli/lib/libbrotlidec.1.dylib
+                       @@HOMEBREW_PREFIX@@/opt/brotli/lib/libbrotlicommon.1.dylib
+                       @@HOMEBREW_PREFIX@@/opt/brotli/lib/libbrotlienc.1.dylib
+                       @@HOMEBREW_PREFIX@@/opt/little-cms2/lib/liblcms2.2.dylib
+                       /usr/lib/libc++.1.dylib
+                       /usr/lib/libSystem.B.dylib

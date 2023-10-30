@@ -1,0 +1,250 @@
+{
+  "name": "jpeg-xl",
+  "full_name": "jpeg-xl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "New file format for still image compression",
+  "license": "BSD-3-Clause",
+  "homepage": "https://jpeg.org/jpegxl/index.html",
+  "versions": {
+    "stable": "0.8.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/libjxl/libjxl/archive/refs/tags/v0.8.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "c70916fb3ed43784eb840f82f05d390053a558e2da106e40863919238fa7b420"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:3fe93ccc4ec136f0ec9a426b83cca576c1004f36787336bd14602e77a4ded4af",
+          "sha256": "3fe93ccc4ec136f0ec9a426b83cca576c1004f36787336bd14602e77a4ded4af"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:f4b1a2518dfff2af63cb8a05f7d0ba1bebdddd9a34aaca2b651b54aa913118ce",
+          "sha256": "f4b1a2518dfff2af63cb8a05f7d0ba1bebdddd9a34aaca2b651b54aa913118ce"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:5a3afec55510d752d97618852d4e0cfa591fe43ed55e0c3ff328739baeca2b65",
+          "sha256": "5a3afec55510d752d97618852d4e0cfa591fe43ed55e0c3ff328739baeca2b65"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:dfb413003b3ecd2f703b7298362b3cfcb3228e8ee5c71861d6e7c40a85c21fda",
+          "sha256": "dfb413003b3ecd2f703b7298362b3cfcb3228e8ee5c71861d6e7c40a85c21fda"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:1093ba2170cf9fe8da1d29beed93bd1fbd196de886a5d5b8827a9c4e256f5312",
+          "sha256": "1093ba2170cf9fe8da1d29beed93bd1fbd196de886a5d5b8827a9c4e256f5312"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:8691c33bbe7aada85c86e7ceabc4397ba1f6aab683ebf8af3bb46082a4ae80d4",
+          "sha256": "8691c33bbe7aada85c86e7ceabc4397ba1f6aab683ebf8af3bb46082a4ae80d4"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:fcc3f2f348f9945953ca444067f333a146542ec0ff3e8898a9e5daa48aef5b82",
+          "sha256": "fcc3f2f348f9945953ca444067f333a146542ec0ff3e8898a9e5daa48aef5b82"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:b96951a962f8b82fa3db3680e8f8a03e922ae72e932ecba87d5bbf12a6a48ee1",
+          "sha256": "b96951a962f8b82fa3db3680e8f8a03e922ae72e932ecba87d5bbf12a6a48ee1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:9b30d5b5c7be91d1155dd4b1cd74e2e2836c461ae0f578d4391553e36d63b1c3",
+          "sha256": "9b30d5b5c7be91d1155dd4b1cd74e2e2836c461ae0f578d4391553e36d63b1c3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "asciidoc",
+    "cmake",
+    "docbook-xsl",
+    "doxygen",
+    "pkg-config",
+    "sphinx-doc"
+  ],
+  "dependencies": [
+    "brotli",
+    "giflib",
+    "highway",
+    "imath",
+    "jpeg-turbo",
+    "libpng",
+    "little-cms2",
+    "openexr",
+    "webp"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "libxml2": "build"
+    },
+    {
+      "libxslt": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "0.8.2_1",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1695347823,
+      "runtime_dependencies": [
+        {
+          "full_name": "brotli",
+          "version": "1.1.0",
+          "declared_directly": true
+        },
+        {
+          "full_name": "giflib",
+          "version": "5.2.1",
+          "declared_directly": true
+        },
+        {
+          "full_name": "highway",
+          "version": "1.0.7",
+          "declared_directly": true
+        },
+        {
+          "full_name": "imath",
+          "version": "3.1.9",
+          "declared_directly": true
+        },
+        {
+          "full_name": "jpeg-turbo",
+          "version": "3.0.0",
+          "declared_directly": true
+        },
+        {
+          "full_name": "libpng",
+          "version": "1.6.40",
+          "declared_directly": true
+        },
+        {
+          "full_name": "xz",
+          "version": "5.4.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "lz4",
+          "version": "1.9.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "zstd",
+          "version": "1.5.5",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libtiff",
+          "version": "4.5.1",
+          "declared_directly": false
+        },
+        {
+          "full_name": "little-cms2",
+          "version": "2.15",
+          "declared_directly": true
+        },
+        {
+          "full_name": "openexr",
+          "version": "3.2.0",
+          "declared_directly": true
+        },
+        {
+          "full_name": "webp",
+          "version": "1.3.2",
+          "declared_directly": true
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
+  ],
+  "linked_keg": "0.8.2_1",
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "cfa52a1f3d877a726b6006f4413000b3437c2709",
+  "ruby_source_path": "Formula/j/jpeg-xl.rb",
+  "ruby_source_checksum": {
+    "sha256": "4b930b27aaae4ab77b0b25eef1d7a312bb9d8105f6f95976cf2a0d4964932384"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "jpeg-xl": 90354
+      },
+      "90d": {
+        "jpeg-xl": 303861
+      },
+      "365d": {
+        "jpeg-xl": 794638
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "jpeg-xl": 38054
+      },
+      "90d": {
+        "jpeg-xl": 126254
+      },
+      "365d": {
+        "jpeg-xl": 290637
+      }
+    },
+    "build_error": {
+      "30d": {
+        "jpeg-xl": 277
+      }
+    }
+  },
+  "generated_date": "2023-10-24"
+}
