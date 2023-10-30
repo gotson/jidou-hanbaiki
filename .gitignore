@@ -1,0 +1,30 @@
+output/
+
+### Gradle
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA
+.idea/*
+!/.idea/codeStyles/
+!/.idea/runConfigurations/
+*.iws
+*.iml
+*.ipr
+
+### IntelliJ Fleet
+.fleet/
+
+### NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
