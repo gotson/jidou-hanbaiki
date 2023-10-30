@@ -1,0 +1,29 @@
+name: Test
+
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - 'dependabot/**'
+
+jobs:
+  test:
+    runs-on: macos-latest
+    name: Test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - name: Gradle build
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: build
+      - name: Upload Unit Test Reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-reports
+          path: '**/build/reports/tests/'
